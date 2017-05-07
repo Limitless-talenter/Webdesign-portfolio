@@ -1,26 +1,103 @@
 * {
 	box-sizing: border-box;
+	font-family: 'Josefin Slab', serif;
 }
 
 #menu-header {
 	background-color: #2e2e2e;
-	max-width: 100%;
+	display: flex;
+	margin: auto;
 	height: 60px;
-	-moz-box-shadow:    3px 3px 5px 6px #0c0c0c;
-  -webkit-box-shadow: 3px 3px 5px 6px #0c0c0c;
-  box-shadow:         3px 3px 5px 6px #0c0c0c;
+	justify-content: center;
 }
 
 #header-image {
 	padding: 0px;
-	margin-top: 3px;
+	margin-top: 0px;
+}
+
+.menu-div {
+	height: 100%;
+}
+
+.menu-list {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu-item {
+	height: 70%;
+	text-align: center;
+}
+
+.menu-text {
+	margin: auto;
+	line-height: 100%;
+	vertical-align: middle;
+	font-size: 28px;
+	color: white;
+
+}
+
+.menu-list-item {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	vertical-align: middle;
 }
 
 body { 
-background: url('header.jpeg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background-color: #e9e9e9;
 }
 
+#carousel {
+	width: 100%;
+	display: block;
+	margin: auto;
+	margin-top: 0px;
+	padding: 0px;
+	float: none;
+}
+
+.item img {
+	display: block;
+	margin: auto;
+	float: none;
+	max-height: 600px;
+}
+
+.carousel-inner {
+	width: 100%;
+	height: 100%;
+}
+
+.shadow-item {
+	-webkit-box-shadow: -1px 0px 22px 0px rgba(0,0,0,0.62);
+-moz-box-shadow: -1px 0px 22px 0px rgba(0,0,0,0.62);
+box-shadow: -1px 0px 22px 0px rgba(0,0,0,0.62);
+}
+
+#myCarousel {
+	height: 100%;
+}
+
+.our-services, .scedule, .contacts {
+	margin-top: 30px;
+	display: flex;
+	padding: 30px;
+}
+
+.cos, .cs, .cc {
+	padding-left: 20px;
+	width: 100%;
+	height: 400px;
+	background-color: #fafafa;
+}
+
+.cos h2, .cs h2, .cc h2 {
+	font-weight: bold;
+}
