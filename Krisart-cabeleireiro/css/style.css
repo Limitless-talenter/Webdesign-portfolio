@@ -1,11 +1,16 @@
 * {
 	box-sizing: border-box;
-	font-family: 'Playfair Display', serif;
-	font-size: 23px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+h1, h2, h3 {
+	font-family: 'Comfortaa', cursive;
 }
 
 h1 {
 	font-weight: bold;
+	font-size: 40px;
 }
 
 hr {
@@ -169,6 +174,7 @@ box-shadow: -1px 0px 22px 0px rgba(0,0,0,0.62);
 .about-us {
 	display: flex;
 	padding: 20px;
+	padding-bottom: 40px;
 	background-color: #eec7a6;
 }
 
@@ -178,7 +184,6 @@ box-shadow: -1px 0px 22px 0px rgba(0,0,0,0.62);
 
 
 p {
-	font-size: 23px;
 	text-align: justify;
 	text-justify: inter-word;
 
@@ -215,6 +220,10 @@ p {
 		float: none;
 		justify-content: center;
 		flex-wrap: wrap;
+	}
+
+	.content-square {
+		padding-right: 30px;
 	}
 
 	.square ul {
@@ -267,4 +276,10 @@ p {
 
 #partners-container img {
 	padding: 40px;
+}
+
+.footer {
+	background-color: #2e2e2e;
+	height: 150px;
+	margin-top: 65px;
 }
